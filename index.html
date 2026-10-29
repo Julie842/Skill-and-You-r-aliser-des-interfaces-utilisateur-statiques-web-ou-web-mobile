@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8"/>
+        <title>Mettre en forme un sommaire</title>
+        <style>
+            .main{
+                width: 250px;margin: 20px auto;
+                border: 10px double #55557F;border-radius: 10px;
+                padding: 10px
+            }
+            .main h1 {
+                text-align: center;
+                color: white;letter-spacing: 5px;
+                text-transform: uppercase;
+                text-shadow: 1px 1px 2px black, 5px 5px 0.2em rgb(199, 70, 61), -5px -5px 0.2em rgb(36, 70, 124);
+            }
+            .sommaire {
+                list-style-type: upper-roman;
+                padding-left: 0px;
+                list-style-position: inside;
+            }
+            .sommaire ol {
+                list-style-type: lower-alpha;
+                margin-top: 1em;margin-bottom: 1em;
+            }
+            .sommaire ul {
+                list-style-type: disc;
+                margin-top: 1em;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="main">
+            <h1>Sommaire</h1>
+            <ol class="sommaire">
+                <li>Géographie
+                    <ul>
+                        <li>Belgique</li>
+                        <li>France</li>
+                        <li>Italie</li>
+                    </ul>
+                    <hr>
+                </li>
+                <li>Toponymie</li>
+                    <ul>
+                        <li>Belgique</li>
+                        <li>France</li>
+                        <li>Italie</li>
+                    </ul>
+                    <hr>
+                <li>Histoire</li>
+                    <ul>
+                        <li>Belgique</li>
+                        <li>France
+                            <ol>
+                                <li>Préhistoire</li>
+                                <li>Moyen &Acirc;ge</li>
+                                <li>Renaissance</li>
+                            </ol>
+                        </li>
+                        <li>Italie</li>
+                    </ul>
+            </ol>
+        </div>
+    </body>
+
+</html>
