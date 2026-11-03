@@ -2,8 +2,6 @@
 
 Ce projet est un exercice d'intégration web visant à créer et styliser un sommaire structuré à plusieurs niveaux d'imbrication en utilisant du HTML5 et du CSS3 pur.
 
-📌 Aperçu du projet :
-
 Le projet présente une carte centrée stylisée avec une bordure double et un titre impactant en majuscules avec un effet d'ombrage textuel tridimensionnel. Le sommaire combine différentes types de listes (ordonnées et non-ordonnées) pour structurer des informations géographiques, toponymiques et historiques.
 
 Fonctionnalités CSS mises en œuvre :
